@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>时间线</title>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        color: inherit;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .Cen {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    body {
+        background-color: #8E92DD;
+    }
+
+    .wrap {
+        width: 85%;
+        margin: auto;
+        position: relative;
+        top: 100px;
+    }
+
+    .wrap::after {
+        content: '';
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        width: 5px;
+        z-index: -999;
+        height: 5200px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .Box {
+        position: relative;
+        width: 100%;
+        height: 380px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        color: aliceblue;
+    }
+
+    .Box img {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 45%;
+        height: 187px;
+    }
+
+    .Lef,
+    .Rig {
+        padding: 15px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 100%;
+        margin-bottom: 50px;
+        position: relative;
+        width: 40%;
+        font-size: 18px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .Cen {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Cen>span {
+        display: block;
+        position: absolute;
+        left: 46%;
+        color: rgb(77, 72, 72);
+        width: 100px;
+        border-radius: 10px;
+        text-align: center;
+        font: 900 24px '';
+        line-height: 50px;
+
+    }
+</style>
+
+<body>
+    <div id="back_t">
+        <div class="header row">
+            <div class="search">
+                <div class="conte_1" style="width:750px;float:right;">
+                    <ul style="float:right; ">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="index.html#dmjs">动漫介绍</a></li>
+                        <li><a href="index3.html#P03">设定解说</a>
+                        </li>
+                        <li><a href="index3.html">角色信息</a>
+                            <ul>
+                                <li><a href="index3.html#P01 ">人物介绍</a></li>
+                                <li><a href="index3.html#P0">EVA机体介绍</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="index.html#base">基本信息</a></li>
+                        <div class="slipe_box"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../image/logo_3.png" style="height:40px; width:90px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="Box">
+            <div class="Lef">
+                <img src="../image_4/J01.bmp">
+                <p>以基尔·洛伦兹为首的Seele组织于1947年发现了死海文书，并通过破解它了解到关于使徒和补完的信息，并以此制订了人类补完计划，同时设立了用于具体执行的特殊机关Gehirun组织（Nerv组织的前身）。
+                </p>
+            </div>
+            <div class="Cen"><span>1974</span></div>
+            <div class="Rig"><img src="../image_2/c61.bmp" style="width:100%;height:88%;"></div>
+        </div>
+        <div class="Box">
+            <div class="Lef"><img src="../image_2/c36.bmp" style="width:56%;height:100%;position:relative;top:-15px;">
+            </div>
+            <div class="Cen"><span>1999</span></div>
+            <div class="Rig">
+                <img src="../image_4/J02.bmp">
+                <p>Seele的成员遍布世界，其中包括本作的核心人物之一：碇唯（主角真嗣的母亲），她在1999年的研究报告引起了生物学教授冬月耕造的注意，也结识了同校的另一名学生：六分仪源堂（真嗣的父亲），二人迅速开始交往并结婚，六分仪源堂入赘，改名为碇源堂。
+                </p>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Lef">
+                <img src="../image_4/J03.bmp">
+                <p>2000年8月，Seele在南极发现了沉睡的亚当，随即派出以葛城博士（美里的父亲）为首的南极科考队进行研究，亚当的存在也证明了博士曾经提出的S2机关理论；与此同时，Seele从死海中打捞出朗基努斯之枪，将其运往南极，准备下一阶段的实验。
+                </p>
+            </div>
+            <div class="Cen"><span>2000</span></div>
+            <div class="Rig">
+                <img src="../image_4/J05.bmp">
+                <p>2000年9月13日，南极科考队将人类的双螺旋基因注入到亚当体内导致其暴走，即使是朗基努斯之枪也无法阻止。苏醒的亚当化身为白色巨人，张开的翅膀遮天蔽日，巨大的爆炸让南极化为血海，席卷全球的次生灾害导致半数人类丧生，甚至造成了海平面上升和地轴偏转，日本因此处于全年夏天。这场堪比恐龙灭绝的浩劫被人们称为第二次冲击（Second
+                    Impact）。
+                </p>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Lef"><img src="../image_4/J06.bmp">
+                <p>2001年，碇源堂和碇唯的儿子碇真嗣诞生，明日香·兰格雷等EVA驾驶员也在这一年出生，故事进入下一阶段。</p>
+            </div>
+            <div class="Cen"><span>2001</span></div>
+            <div class="Rig"><img src="../image_2/c1.bmp" style="width:100%;height:88%;"></div>
+        </div>
+        <div class="Box">
+            <div class="Lef">
+                <img src="../image_4/J07.bmp">
+                <p> 2003年，联合国完成了南极事件的调查，Seele也发现了位于箱根地下的莉莉丝，并利用当初黑之月降临产生的巨大空洞建造了一座地下都市，作为人工进化研究所的基地，Gehirun的成员也都转移到这里。冬月教授曾追查到此地，得知真相后决定协助碇源堂完成计划。
+                </p>
+            </div>
+            <div class="Cen"><span>2003</span></div>
+            <div class="Rig"><img src="../image_4/J08.bmp">
+                <p>与此同时，Seele开始模仿亚当制造人形兵器EVA。经过无数次的实验，终于制造出一台没有灵魂的原型机，也就是EVA零号机。随后Seele切下了莉莉丝的半身，并将其改造为EVA初号机，碇唯作为计划的主要负责人参与了整个事件。
+                </p>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Lef"><img src="../image_2/c28.bmp" style="width:100%;height:85%;"></div>
+            <div class="Cen"><span>2004</span></div>
+            <div class="Rig"><img src="../image_4/J09.bmp">
+                <p> 2004年，碇唯进行了初号机启动实验，然而实验失败了，碇唯的灵魂和初号机融合，肉体彻底消失，碇源堂尝试各种方法也没能挽回。年幼的真嗣目睹了一切，但由此产生的心理障碍反而让他失去了这段记忆。</p>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Lef"><img src="../image_4/J10.bmp">
+                <p>2005年，走出失语症的葛城美里进入了第二东京大学，并结识了赤木直子博士的女儿赤木律子，随后又和加持良治相识并恋爱。与此同时，Seele开始在空洞上方的地表建造迎击使徒专用要塞都市：第三新东京市。
+                </p>
+            </div>
+            <div class="Cen"><span>2005</span></div>
+            <div class="Rig"><img src="../image_2/c33.bmp" style="width:56%;height:96%;"></div>
+        </div>
+        <div class="Box">
+            <div class="Rig"><img src="../image_2/c34.bmp" style="width:56%;height:96%;"></div>
+            <div class="Cen"><span>2008</span></div>
+            <div class="Rig"><img src="../image_4/J11.bmp">
+                <p>2008年，赤木直子博士完成了超级人工电脑MAGI的基础理论。律子也跟随母亲的脚步加入研究所，成为主要执行人。次年，美里也加入了研究所。另一边，碇源堂正在利用碇唯的DNA制造复制人绫波丽，并将莉莉丝的灵魂封入其中，为补完计划做准备。
+                </p>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Lef"><img src="../image_4/J12.bmp">
+                <p>2010年，MAGI完成的当天，碇源堂带着第一代绫波丽来到研究所，赤木直子在受到其言语挑衅后失控掐死了一代丽，自己随后跳楼自尽。人工进化研究所在此次事件后改编重整为Nerv组织，葛城美里担任作战部部长，赤木律子担任技术部部长。
+                </p>
+            </div>
+            <div class="Cen"><span>2010</span></div>
+            <div class="Rig"><img src="../image_2/c66.bmp" style="width:100%;height:88%;"></div>
+        </div>
+        <div class="Box">
+            <div class="Rig"><img src="../image_2/c78.bmp" style="width:100%;height:85%;"></div>
+            <div class="Cen"><span>2012</span></div>
+            <div class="Rig"><img src="../image_4/J04.bmp">
+                <p>2012年，真嗣在参拜碇唯的陵墓时和碇源堂爆发冲突，自此离家出走，前往亲戚家寄宿，再也没有和父亲见面。2014年，二代绫波丽转学进入新第三东京市立第一中学二年级A班，铃原冬二、相田剑介等EVA驾驶员候补也在同一班级。
+                </p>
+            </div>
+        </div>
+        <div class="Box">
+            <div class="Lef"><img src="../image_4/J13.bmp">
+                <p>2015年，第三使徒萨基尔（水天使）为了与亚当融合而袭击第三新东京市，真嗣也在碇源堂和美里的引导下来到Nerv总部，成为初号机的驾驶员，EVA的故事由此开始。</p>
+            </div>
+            <div class="Cen"><span>2015</span></div>
+            <div class="Rig"><img src="../image_2/c3.bmp" style="width:100%;height:90%;"></div>
+        </div>
+    </div>
+</body>
